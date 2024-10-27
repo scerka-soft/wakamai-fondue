@@ -42,7 +42,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           token: ${{ secrets.PAGES_DEPLOY_TOKEN }}
-          folder: build
+          folder: dist
           repository-name: scerka-soft/hub
           branch: gh-pages
           target-folder: wakamaifondue
