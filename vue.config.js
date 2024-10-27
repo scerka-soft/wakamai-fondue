@@ -1,4 +1,5 @@
 module.exports = {
+	publicPath: '/wakamaifondue/',
 	devServer: {
 		// disableHostCheck: true,
 		// watchOptions: {
