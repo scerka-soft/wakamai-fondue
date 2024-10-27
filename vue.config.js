@@ -1,5 +1,4 @@
 module.exports = {
-	publicPath: '/wakamaifondue/',
 	devServer: {
 		// disableHostCheck: true,
 		// watchOptions: {
@@ -16,9 +15,8 @@ module.exports = {
 				util: require.resolve("util/"),
 				zlib: require.resolve("browserify-zlib"),
 			},
-			symlinks: false, // npm link
+			symlinks: false,
 		},
 	},
-	// Temporary beta build stuff:
-	// publicPath: "/beta"
+	publicPath: "/wakamaifondue/"
 };
