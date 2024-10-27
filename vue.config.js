@@ -18,5 +18,5 @@ module.exports = {
 			symlinks: false,
 		},
 	},
-	publicPath: "/wakamaifondue/"
+	publicPath: "/wakamaifondue/",
 };
